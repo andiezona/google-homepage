@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 25px;
+  font-size: 13px;
+}
+
+.nav-section {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-section-left {
+  width: 85px;
+}
+
+.nav-section-right {
+  width: 225px;
+}
+
+.grid-icon {
+  color: #555;
+}
+
+.nav-button {
+  background-color: #4285f4;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 6.5px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.google-logo {
+  margin-top: 8rem;
+}
+
+.search-bar-wrapper {
+  position: relative;
+  margin: 1.5rem;
+  width: 30%;
+}
+
+.search-bar {
+  -webkit-appearance: none;
+  border: 1px solid lightgrey;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 100%;
+}
+
+.fa-search {
+  position: absolute;
+  top: 35%;
+  left: 20px;
+}
+
+.fa-microphone {
+  position: absolute;
+  top: 35%;
+  right: 20px;
+}
+.btn {
+  color: #556666;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  margin: 0 4px;
+  padding: 8px 17px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.footer-left {
+  width: 100%;
+  display: inline-flex;
+}
+
+.footer-right {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.li-footer {
+  padding: 0 14px;
+}
